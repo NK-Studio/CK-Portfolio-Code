@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Plugins/ExtraProcessing/Editor/NKTemplate/GroupBox.uss?fileID=7433441132597879392&amp;guid=78f2195d43db93f418e86814493528c9&amp;type=3#GroupBox" />
+    <ui:Label tabindex="-1" text="Dither Effect" display-tooltip-when-elided="true" style="-unity-text-align: middle-center; font-size: 18px; padding-left: 0; padding-right: 0; margin-top: 10px; margin-bottom: 10px; -unity-font-style: bold;" />
+    <ui:GroupBox text="Target Collider" class="BoxStyle" style="-unity-font-style: normal; font-size: 12px;">
+        <uie:PropertyField binding-path="TargetTrigger" label="Target" tooltip="여기에 닿거나 나갈시 동작합니다." />
+        <uie:PropertyField binding-path="TargetTag" label="Tag" tooltip="Trigger와 접촉 시 사용할 비교 태그입니다." />
+    </ui:GroupBox>
+    <ui:GroupBox text="Target Render" class="BoxStyle">
+        <uie:PropertyField binding-path="TargetRenderers" label="Target" tooltip="디더링을 적용할 렌더러입니다." style="margin-left: 15px;" />
+    </ui:GroupBox>
+    <ui:GroupBox text="Duration" class="BoxStyle">
+        <uie:PropertyField name="property_curve" binding-path="curve" label="Curve" />
+        <uie:PropertyField binding-path="Speed" label="Speed" tooltip="나타나고 사라지는데 사용되는 속도입니다." />
+    </ui:GroupBox>
+</ui:UXML>

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Plugins/CustomTemplate/Template/NKUSSTemplate.uss?fileID=7433441132597879392&amp;guid=6a25e899d15eb994b85241dddfd90559&amp;type=3#NKUSSTemplate" />
+    <Style src="project://database/Assets/Plugins/CustomTemplate/Template/OdinUSSTemplate.uss?fileID=7433441132597879392&amp;guid=8ee2195f99d140f43ae4fd9b456629f9&amp;type=3#OdinUSSTemplate" />
+    <Style src="project://database/Assets/Plugins/CustomTemplate/Template/ToggleUSSTemplate.uss?fileID=7433441132597879392&amp;guid=2e3e5c2da0c15f741a97092246c349e6&amp;type=3#ToggleUSSTemplate" />
+    <ui:VisualElement name="root" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0);">
+        <ui:Label tabindex="-1" text="Chain Module" display-tooltip-when-elided="true" class="TitleStyle" />
+        <ui:FloatField label="Spacing" value="42.2" binding-path="Spacing" name="floatfield_spacing" class="unity-base-field__aligned" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); padding-left: 5px; padding-right: 5px; margin-top: 6px;">
+            <ui:Button text="Bake" display-tooltip-when-elided="true" name="button_bake" class="ButtonStyle" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
