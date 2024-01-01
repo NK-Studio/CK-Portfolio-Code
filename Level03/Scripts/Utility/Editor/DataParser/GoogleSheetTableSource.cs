@@ -42,13 +42,13 @@ namespace DataParser
     {
         private static readonly ClientSecrets Secrets = new ClientSecrets
         {
-            ClientId = "287249352210-ap2js8f3vjrrofgfv9g850fbe9ptq5cl.apps.googleusercontent.com",
-            ClientSecret = "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"
+            ClientId = "***********",
+            ClientSecret = ""***********"
         };
         
         [field: SerializeField]
         [field: InfoBox("시트 페이지의 https://docs.google.com/spreadsheets/d/[여기에 위치한 ID] 를 작성해야 합니다.", InfoMessageType.Info)]
-        public string SpreadsheetId { get; private set; } = "188lvondKo-3157eTe83q8VBZBzmHT5zOYwm7Tk3u_PE";
+        public string SpreadsheetId { get; private set; } = "***********";
 
         private static SheetMetadata ParseMetadata(Sheet sheet, GridData grid)
         {
